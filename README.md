@@ -1,2 +1,0 @@
-# WeiboAffectiveAnalysis
-Weibo-Affective-Analysis
