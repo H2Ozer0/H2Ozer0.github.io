@@ -54,54 +54,10 @@
     }
 
 
-    .b {
-    overflow: hidden;
-    color:#f2f2f2;
-    background-color: rgb(72,72,72);
-    }
-    
-
-    .b a {
-    float: left;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    }
-    
-
-    .b a:hover {
-    background-color: #ddd;
-    color: black;
-    }
 
     
     
-    .f {
-    overflow: hidden;
-    color:#f2f2f2;
-    background-color: gray;
-    height:740px;
-    text-align:center;
-        width:188px;
-        float:right;
-    }
-    
-
-    .f a {
-    float: left;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 10px 70px;
-    text-decoration: none;
-    }
-    
-
-    .f a:hover {
-    background-color: #ddd;
-    color: black;
-    }
-
+   
     .c {
         line-height:30px;
         color:rgb(1, 1, 1);
@@ -115,21 +71,7 @@
         float:left;
         padding:10px;          
     }
-    .e {
-        background-color:rgb(40,40,40);
-        color:rgb(200,200,200);
-        clear:both;
-        text-align:center;
-    padding:1px;          
-    }
-    .e a {
-    color: rgb(200,200,200);
-    padding: 0px 0px;
-    text-decoration: none;
-    }
-    .e a:hover {
-    color: rgb(250,250,250);
-    }
+    
     .h {
 
         background: linear-gradient(rgba(12, 12, 12, 0.747),rgba(249, 249, 249, 0));
@@ -147,6 +89,9 @@
         overflow-y: scroll;
 
     }
+    .k{
+        filter: drop-shadow(10px 10px 10px rgb(51, 50, 50));
+    }
 </style></head>
 
 <body>
@@ -155,7 +100,7 @@
     </div>
     <div>
         <div class="container">
-            <a href="index.html" target="_self" class="label">词云</a>
+            <a href="1.html" target="_self" class="label">词云</a>
             <a href="2.html" target="_self"  class="label change">情绪地图</a>
             <a href="3.html" class="label">积极消极评估</a>
             <div class="line"></div>
@@ -183,19 +128,20 @@
    
     <div class="h">
         <div align = center >
-            
+           
             <h2>话题热度地图</h2>
             <img src="./话题热度地图.png" width="1100" height="600" style="opacity: 0.8;">
             
-        </div>
-        <div class="c" align = center>
-            <h2>积极因子地图</h2>
-            <img src="./hot.png" width="550" height="300" style="opacity: 0.8;">
+            
+            <div class="c">
+                <h2>积极因子地图</h2>
+                <img src="./hot.png" width="550" height="300" style="opacity: 0.8;">
 
-        </div>
-        <div class="d" align = center>
-            <h2>消极因子地图</h2>
-            <img src="./cold.png" width="550" height="300" style="opacity: 0.8;">
+            </div>
+            <div class="d" >
+                <h2>消极因子地图</h2>
+                <img src="./cold.png" width="550" height="300" style="opacity: 0.8;">
+            </div>
         </div>
     </div>
 

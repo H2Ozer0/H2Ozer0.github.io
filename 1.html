@@ -1,9 +1,11 @@
 <html>
 <head>
     <meta name="code-stutio" content="code-123" />
-    </head>
-        <meta charset="utf-8">
-<title>微博情感分析</title>
+    <meta charset="utf-8">
+    <title>微博情感分析</title>
+</head>
+        
+
 <style>
     .container{
         position: relative;
@@ -26,7 +28,7 @@
         text-decoration: none; 
         font-size: 14px;
     }
-    .line{
+   .line{
         position: absolute;
         left: 20px;
         bottom: 0;
@@ -46,21 +48,65 @@
             1.5px 2px 2px rgba(255,255,255,0.1);      
     }
 
+
+
     .a {
-        background-color:rgba(0, 0, 0, 0.834);
+    background-color:rgba(0, 0, 0, 0.834);
         color:white;
         text-align:center;
         padding:5px;
     }
+    .b {
+    overflow: hidden;
+    color:#f2f2f2;
+    background-color: rgb(72,72,72);
+    }
+    
 
+    .b a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    }
+    
+
+    .b a:hover {
+    background-color: #ddd;
+    color: black;
+    }
 
     
-   
+
+
+    .c {
+        line-height:30px;
+        background: linear-gradient(to right,rgba(12, 12, 12, 0.747),rgba(249, 249, 249, 0));
+        color:white;
+        width:50%;
+        float:left;
+        text-shadow: #000000;
+    }
+    .d {
+        width:665px;
+        float:left;
+        padding:10px;          
+    }
+    
     .h {
 
-        background: linear-gradient(rgba(12, 12, 12, 0.747),rgba(249, 249, 249, 0));
+        background: linear-gradient(to left,rgba(12, 12, 12, 0.747),rgba(249, 249, 249, 0));
         color:white;
-        padding:20px;          
+        width:50%;
+        float:right;
+         
+    }
+    .k{
+        filter: drop-shadow(20px 20px 10px rgb(51, 50, 50));
+    }
+    .kk{
+        filter: drop-shadow(-20px 20px 10px rgb(51, 50, 50));
     }
     .inner-container {
 
@@ -73,9 +119,6 @@
         overflow-y: scroll;
 
     }
-    .k{
-        filter: drop-shadow(10px 10px 10px rgb(51, 50, 50));
-    }
 </style></head>
 
 <body>
@@ -84,9 +127,9 @@
     </div>
     <div>
         <div class="container">
-            <a href="1.html" target="_self" class="label">词云</a>
+            <a href="1.html" target="_self" class="label change">词云</a>
             <a href="2.html" target="_self"  class="label">情绪地图</a>
-            <a href="3.html" class="label change">积极消极评估</a>
+            <a href="3.html" class="label">积极消极评估</a>
             <div class="line"></div>
         </div>
         <script>
@@ -110,21 +153,108 @@
         </script>
     </div>
    
-    <div class="h">
-        <div >
-            <div align = center >
+    <div class="c">
+        <div align = center>
+            <div class="k">
+                <h2>微博1：给我的女儿写一封信</h2>
             
-                <h2>城市情绪分布</h2>
-                <img src="./城市情绪分布.png" width="1100" height="500" style="opacity: 0.9;">
-                <h2>微博1点赞top10</h2>
-                <img src="./点赞top10.png" width="1000" height="500" style="opacity: 0.9;">
+                <img src="./微博1.png" width="500" height="280" shadow>
+            </div>
+            <br>
+            <h2>百度文言一心</h2>
+            <h2>OpenAI Gpt-4</h2>
+            <h2>微软新必应</h2>
+           
+        </div>
+    </div>
+    <div class="d">
+        <div align = center>
+            <br><br><br><br>
+            <br><br><br><br>
+            <h2>算法是有价值观的</h2>
+            <h2>算法本身或许没有，但设计算法的人一定有</h2>
+            <br><br><br>
+            <br><br><br>
+        
+        </div>
+    </div> 
+   
+    <div class="h">
+        <div align = center>
+            <div class="kk">
+                <h2>评论词云</h2>
+                <img src="./词云1.png" width="650" height="450">
+            </div>
+            <br>
+            <br><br><br>    
+        </div>
+    </div>
+
+    <div class="d">
+        <div align = center>
+        <br><br>
+        <br><br><br>
+        <br><br><br>
+        <h2>“一方水土养一方AI”</h2>
+        <h2>AI的发展需要伴随着责任和道德的考虑。我们应当确保AI的发展符合道德准则和社会价值，防止滥用和不当使用。
+        </h2>
+        <br><br><br>
+        <br><br><br>
+       
+        </div>
+    </div>
+
+    <div class="c">
+        <div align = center>
+            <div class="k">
+                
+                <h2>微博2:AI绘画</h2>
+            
+                <img src="./微博2.jpg" width="600" height="200">
+                <br>
+                <br>
+                <h2>AI绘画是好事 or 坏事？</h2>
             </div>
         </div>
+        
+       
+        <br><br><br>
+      
 
     </div>
 
+    <div class="d" align = center>
 
-    
+        <br><br><br>
+        <br><br><br>
+        <h2>顺应时代的潮流无可厚非,</h2>
+        <h2>        更重要的是思想的火花与创作本身。</h2>
+        <br><br><br>
+        <br><br><br>
+        <br><br><br>
+    </div>
+
+
+    <div class="h">
+        <div align = center>
+            <div class="kk">
+                <h2>评论词云</h2>
+           
+                <img src="./词云2.png" width="650" height="450">
+                <br><br><br>
+            </div>
+            
+        </div>
+    </div>
+    </p>
+    <div class="d" align = center>
+        <br><br><br>
+        <br><br><br>
+        <h2>作为一种结合了计算机科学和艺术的交叉领域，</h2>
+        <h2>它具有一定的创造性和独特性，</h2>
+        <h2>但同时也引发了关于艺术、科技和社会伦理等多个方面的讨论和思考</h2>
+    </div>
+
 
     <script type="text/javascript">
                 ! function () {
